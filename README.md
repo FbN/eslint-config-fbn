@@ -1,13 +1,13 @@
-# eslint-config-vista
+# eslint-config-fbn
 
-Vista Tecnologie SRL Javascript Styling rules
+fbn Tecnologie SRL Javascript Styling rules
 
 ## Usage
 
 Install in project
 
 ```
-yarn add --dev eslint-config-vista
+yarn add --dev eslint-config-fbn
 ```
 
 Add package to dev deps of your project
@@ -18,9 +18,9 @@ Es package.json:
 
 
 ```
-"prettier": "eslint-config-vista/prettier.json",
+"prettier": "eslint-config-fbn/prettier.json",
 "eslintConfig": {
-    "extends": ["vista"]
+    "extends": ["fbn"]
 }
 ```
 
