@@ -1,0 +1,40 @@
+{
+    "name": "eslint-config-fbn",
+    "version": "0.0.10",
+    "description": "",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "kentcdodds",
+        "javascript",
+        "styleguide"
+    ],
+    "packageManager": "yarn@3.3.1",
+    "main": "index.js",
+    "license": "MIT",
+    "author": "Fabiano Taioli <ftaioli@gmail.com> (https://www.vista.it)",
+    "dependencies": {
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-functional": "^4.4.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1"
+    },
+    "eslintConfig": {
+        "extends": "./index.js"
+    },
+    "eslintIgnore": ["node_modules"],
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "peerDependencies": {
+        "eslint": "*",
+        "prettier": "*"
+    },
+    "devDependencies": {
+        "eslint": "^8.30.0"
+    }
+}
